@@ -6,6 +6,12 @@
 
 > Только для учёбы и экспериментов. Для криптографически стойких задач используйте `secrets` / OS CSPRNG.
 
+## Особенности
+
+- Реализация ANSI X9.17 с AES-256 (ECB)
+- Вектор даты/времени из наносекундного таймстампа
+- CLI и импорт как модуль (`X917Generator`)
+
 ## Быстрый старт
 
 ```bash
@@ -29,4 +35,4 @@ print(gen.get_random_bytes(32).hex())
 
 ## Лицензия
 
-[MIT License](LICENSE)
+[MIT](LICENSE) — Copyright (c) 2026 [renkagod](https://github.com/renkagod).
