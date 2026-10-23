@@ -1,6 +1,7 @@
 # ANSI X9.17 PRNG (AES)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Donate](https://img.shields.io/badge/Donate-crypto-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/renkagod/.github/blob/main/DONATE.md)
 
 Генератор псевдослучайных байт по схеме ANSI X9.17 на основе AES-256 в режиме ECB. Внутреннее состояние `V` обновляется после каждого блока, вектор даты/времени берётся из наносекундного таймстампа.
 
@@ -34,6 +35,10 @@ print(gen.get_random_bytes(32).hex())
 |----------|----------|
 | `key` | 32 байта AES-ключа; `None` — случайный ключ |
 | `seed` | 16 байт начального `V`; `None` — случайный вектор |
+
+## Поддержать проект
+
+Если проект оказался полезен, можно поддержать его криптой: [адреса для доната](https://github.com/renkagod/.github/blob/main/DONATE.md).
 
 ## Лицензия
 
